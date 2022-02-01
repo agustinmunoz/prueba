@@ -22,7 +22,9 @@ public class CalculadoraServiceImpl implements ICalculadora {
 
     @Override
     public double Restar(double minuendo, double sustraendo) {
-        return minuendo-sustraendo;
+        double resultado=minuendo-sustraendo;
+        printResult(resultado);
+        return resultado;
     }
 
 
