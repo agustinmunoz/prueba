@@ -2,9 +2,8 @@ package com.sanitas.prueba.business.impl;
 
 
 import com.sanitas.prueba.business.ICalculadora;
-import io.corp.calculator.TracerAPI;
+
 import io.corp.calculator.TracerImpl;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
